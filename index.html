@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang ="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Accueil de l'entreprise Safy</title>
+    <meta name="description" content="L'entreprise Safy vous propose des bons plans voyages" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styles.css" type="text/css">
+    <script src="javascript/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <div id="icones">
+                <a href="http://facebook.com" target="bank"><img src="image/20.png" alt="logo facebook"></a>
+                <a href="http://twitter.com" target="bank"><img src="image/19.png" alt="logo twitter"></a>
+            </div>
+            <nav>
+                <img src="image/18.jpg" alt="logo de l'entreprise">
+                <div id="menu" role="navigation">
+                    <ul class="trait">
+                        <li><a href="#" title="Accueil du site"><strong>Home</strong></a>
+                        </li>
+                    </ul>
+                    <ul class="trait">
+                        <li><a href="#" title="galerie des photos"><strong>Book</strong> <img src="image/fleche.png" class="petitf" alt="fleche du menu déroulant"></a>
+                            <ul class="sous-menu">
+                                <li><a href="#" title="Photographies de la France">France</a></li>
+                                <li><a href="#" title="Photographies du Brésil">Brésil</a></li>
+                                <li><a href="#" title="Photographies de l'Algérie">Algérie</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="trait">
+                        <li><a href="#" title="Découvrez nos destinations"><strong>Destinations</strong> <img src="image/fleche.png" class="petitf" alt="fleche du menu déroulant"></a>
+                            <ul class="sous-menu">
+                                <li><a href="#" title="Profitez d'un séjour en France">France</a></li>
+                                <li><a href="#" title="Profitez d'un séjour au Brésil">Brésil</a></li>
+                                <li><a href="#" title="Profitez d'un séjour en Algérie">Algérie</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="trait">
+                        <li><a href="#" title="Découvrez nos tarifs"><strong>Prices</strong></a>
+                        </li>
+                    </ul>
+                    <ul class="trait">
+                        <li><a href="#" title="Soyez alerté des dernieres offres disponibles"><strong>Alerts</strong></a>
+                        </li>
+                    </ul>
+                    <ul class="trait">
+                        <li><a href="#" title="Contactez-nous"><strong>Contact</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="galerie">
+                <img id="ecran" src="image/6.jpg" alt="Femme à l'aéroport">
+                <button onclick="precedente();"> <img src="image/2.png" alt="image du diaporama" ></button>
+                
+            </div>
+                <div id="scroll">
+                <img src="image/1.png" alt="barre de changement">
+                </div>
+        </header>
+        <div id="principale">
+            <article>
+                <div id="feu">
+                    <div id="imagefeu">
+                        <img src="image/13.png" alt="feu">
+                        <h1> Safe, structured and amazing application</h1>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id ligula in ipsum vulputate voluptat at ut nisi. Aliquam erat voluptat. Maecenas pretium dolor vitae lectus fermentum convallis bibendum in erat. Donec vitae risus non lorem voluptat fringilla in in metus. Aenean quis eros diam. Proin porta quam at neque congue iaculis.</p>
+                    <p><a href="#">more info</a></p>
+                </div>
+            </article>
+            <article>
+                <div id="tipi">
+                    <div id="imagetipi">
+                        <img src="image/17.png" alt="tipi">
+                        <h2> The sun is shining today, book your trip</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id ligula in ipsum vulputate voluptat at ut nisi. Aliquam erat voluptat. Maecenas pretium dolor vitae lectus fermentum convallis bibendum in erat. Donec vitae risus non lorem voluptat fringilla in in metus. Aenean quis eros diam. Proin porta quam at neque congue iaculis.</p>
+                    <p><a href="#">more info</a></p>
+                </div>
+            </article>
+            <article>
+                <div id="patte">
+                    <div id="imagepatte">
+                        <img src="image/12.png" alt="patte">
+                        <h2>Meet new people and live more intensely</h2>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id ligula in ipsum vulputate voluptat at ut nisi. Aliquam erat voluptat. Maecenas pretium dolor vitae lectus fermentum convallis bibendum in erat. Donec vitae risus non lorem voluptat fringilla in in metus. Aenean quis eros diam. Proin porta quam at neque congue iaculis.</p>
+                    <p><a href="#">more info</a></p>
+                    </div>
+            </article>
+            <div id="destination">
+                <h2 class="trait1">Destinations</h2>
+                <button id="un" onclick="drapeauSuivant();"> <img id="drapeau" src="image/3.jpg" alt="drapeau france"> </button>
+                <button id="deux"> <img src="image/22.png" class="fleche" alt="fleche">
+                </button>
+                <img class="cacher" src="image/3.jpg" alt="drapeau français"> 
+                <img class="cacher" src="image/4.jpg" alt="drapeau brésil">
+                <img class="cacher" src="image/5.jpg" alt="drapeau de l'algèrie">
+                <h3>France</h3>
+            </div>
+            <article>
+                <div id="about">
+                    <div id="ab">
+                        <h2 class="trait1"> About Us </h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bidendum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bidendum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula.</p>
+                            <p>Quisque malesueda lorem at leo voluptat tristique. Nunc sit amet felis imperdiet ante tincidunt viverra sit amet quis ipsum. Aenean metus urna, placerat ut pharetra id, pharetra eget turpis. Sed blandit nunc eget lorem vestibulum malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bidendum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula. Quisque malesueda lorem at leo voluptat tristique. Nunc sit amet felis imperdiet ante tincidunt viverra sit amet quis ipsum. </p>
+                    </div>
+                    <div id="why">
+                    <h2 class="trait1"> Why Us</h2>
+                        <div id="bousole">
+                            <img src="image/14.png" alt="bousole">
+                            <p class="padding"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bidendum lectus scelerisque. Aenean at mauris augue, sed fringilla justo.</p>
+                        </div>
+                        <div id="carte">
+                            <img src="image/15.png" alt="carte">
+                            <p class="espace"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bidendum lectus scelerisque. Aenean at mauris augue, sed fringilla justo.</p>
+                        </div>
+                        <div id="velo">
+                            <img src="image/16.png" alt="vélo">
+                            <p class="espace"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bidendum lectus scelerisque. Aenean at mauris augue, sed fringilla justo.</p>
+                        </div>
+                    </div>
+                    <h2 class="trait1">How to travel ?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bidendum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula.</p>
+                    <div id="button">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <footer>
+            <div id="footer" role="contentinfo">
+                <ul>
+                    <li>
+                        <a href="#" title="Accueil du site"><strong>Home</strong></a>
+                    </li>
+                    <li>
+                        <a href="#" title="galerie des photos"><strong>Book</strong></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Découvrez nos destinations"><strong>Destinations</strong></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Découvrez nos tarifs"><strong>Prices</strong></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Soyez alerté des dernieres offres disponibles"><strong>Alerts</strong></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Contactez-nous"><strong>Contact</strong></a>
+                    </li>
+                </ul>
+                <p>© There is no birds here  Look around.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
